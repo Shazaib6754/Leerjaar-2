@@ -1,0 +1,5 @@
+ body { font-family: Arial; margin: 30px; background: #bfe611; }
+        h1 { color: #333; }
+        form { margin-bottom: 30px; background: rgb(255, 0, 0); padding: 15px; border-radius: 8px; }
+        input, select, button { margin: 5px; padding: 8px; }
+        .film { background: rgb(255, 0, 0); border-radius: 8px; padding: 10px; margin-bottom: 10px; }
