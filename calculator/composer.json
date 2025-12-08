@@ -1,0 +1,15 @@
+{
+    "name": "shaza/calculator",
+    "autoload": {
+        "psr-4": {
+            "Project_calculator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shazaib6754",
+            "email": "9024659@student.zadkine.nl"
+        }
+    ],
+    "require": {}
+}

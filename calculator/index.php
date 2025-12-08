@@ -1,10 +1,16 @@
 <?php
-require_once __DIR__ . '/../classes/Calculator.php';
 
-$calc = new Calculator();
-$result = $calc->add(5, 10);      
-echo "The sum is: " . $result;
+// Autoloader voor classes
+require_once 'vendor/autoload.php';
 
+// use Project_calculator\Classes\Calculator;
+// require_once 'classes/Calculator.php';
+// require_once 'classes/Calculator2.php';
 
+// Gebruik van Calculator class
+$calculator = new Calculator();
 
-?>
+echo $calculator->add(5, 3);
+echo "<br>";
+echo $calculator->add(10.5, 7.5);
+echo "<br>";

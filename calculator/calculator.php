@@ -1,4 +1,5 @@
 <?php
+namespace Project_calculator\Classes;
 class Calculator {
     private $result = 0;
     
